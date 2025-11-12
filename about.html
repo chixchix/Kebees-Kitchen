@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kebees Kitchen</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img class="logo" src="/images/logo.png" alt="Kebees restaurant logo">
+            </a>
+            <ul class=" nav_bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>  
+        </nav>
+    </header>  
+
+    <section class="about">
+
+        <!--Image gallery-->
+        <div class="slideshow-container">
+            <div class="slide fade">
+            <img src="/images/interior/one.jpg" alt="Dining room ambiance">
+            </div>
+
+            <div class="slide fade">
+            <img src="/images/interior/two.jpg" alt="the outdoor restuarant ambience"/>
+            </div>
+
+            <div class="slide fade">
+            <img src="/images/interior/three.jpg" alt="Bar setting and lightning">
+            </div>
+            
+            <div class="slide fade">
+            <img src="/images/interior/four.jpg" alt="customers sharing a happy moment together on a table">
+            </div>
+
+            <div class="slide fade">
+            <img src="/images/interior/five.jpg" alt="lowlight picture of our restuarant">
+            </div>
+
+            <div class="slide fade">
+            <img src="/images/interior/six.jpg" alt="Two glasses of aeropol">
+            </div>
+
+            <!-- The dots-->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+
+        <div class="story">
+            <h1>Our Story: A Taste of True Italy at Keebi’s Place</h1>
+            <p>Welcome to our table, where every dish tells a story, and every guest is family.</p>
+            <p> At Keebi’s Place, we believe dining is more than just a meal—it’s an experience, a journey to the sun-drenched hills of Tuscany, the bustling streets of Rome, and the serene coasts of the Amalfi.
+                Our story is simple, built on passion, tradition, and an unwavering commitment to bringing the soul of Italy right here to your neighborhood.
+            </p>
+            <p>
+                From the moment you step through our doors, you are transported. We've meticulously designed our space to capture the warmth, romance, and lively spirit of a traditional Italy
+            </p>
+            <p>
+                Our mission is simple yet profound: to leave every person who dines with us with a good feel of Italy’s finest dishes and an even better feeling in their heart.
+                We want you to feel the effortless grace of Italian hospitality. Whether you're celebrating a milestone, enjoying a casual weeknight dinner, or simply treating yourself, we strive to make your experience memorable. We hope that when you leave Keebi’s Place, you carry with you the warmth of Italian sunshine and the satisfaction of a truly exceptional meal.
+            </p>
+        </div>
+    </section>
+
+    <!--JS file for slider-->
+    <script src="slider.js"></script>
+    </body>
+
+    <footer>
+        <div class="footer-container">
+            
+            <div class="top-row">
+                <div class="footer-section">
+                    <h3>Kebees Kitchen</h3>
+                    <p>Authentic Italian cuisine</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Business Hours</h3>
+                    <ul class="hours">
+                    <li>Mon - Fri: 11:00 AM - 10:00 PM</li>
+                    <li>Sat - Sun: 12:00 PM - 11:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section follow">
+                <h4>Follow Us</h4>
+                <div class="socials">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <p class="copyright">&copy; 2025 Kebees Kitchen. All rights reserved.</p>
+    </footer>
+</html>
